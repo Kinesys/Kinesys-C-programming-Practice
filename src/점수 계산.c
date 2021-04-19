@@ -7,7 +7,7 @@ int main(void) {
 	printf("성적을 입력하세요 : ");
 	scanf_s("%d", &score);
 
-	if (100 >=score >=  95) {
+	if (score >=  95) {
 
 		printf("당신의 학점은 A+입니다.\n");
 	}
