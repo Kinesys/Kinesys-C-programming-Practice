@@ -1,13 +1,13 @@
-#include <stdio.h>
+fn main() {
+    let mut x = 1;
+    let y = 100;
+    let mut sum = 0;
 
-int main(void) {
-  int data = 0;
-  int sum = 0;
+    println!("1 ~ 100까지의 합을 계산합니다.\n");
 
-    for (data = 1; data <= 100; data++) {
-    sum += data;
-  }
-  printf("1부터 100까지의 합은 %d입니다. \n", sum);
-
-  return 0;
+    while x <= y {
+        sum = sum + x;
+        x = x + 1;
+    }
+    println!("1부터 100까지의 합은 {:?}입니다.\n", sum);
 }
