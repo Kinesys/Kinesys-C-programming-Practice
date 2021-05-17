@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void hanoi_tower(int n, char from, chara tmp, char to) {
+void hanoi_tower(int n, char from, char tmp, char to) {
     if(n == 1) 
         printf("원판 1을 %c에서 %c로 옮깁니다.\n", from, to);
 
